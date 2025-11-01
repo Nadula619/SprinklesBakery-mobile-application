@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#8692f7">
+
+    <TextView
+        android:id="@+id/text_contact_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_address_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/text_contact_us"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Bakery Street, Colombo"
+        android:layout_below="@id/text_address_title"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_phone_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/text_address"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123-456-7890"
+        android:layout_below="@id/text_phone_title"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/text_phone"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@sprinklesbakery.com"
+        android:layout_below="@id/text_email_title"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

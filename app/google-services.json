@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "663035479507",
+    "firebase_url": "https://sprinkles-bakery-388f2-default-rtdb.firebaseio.com",
+    "project_id": "sprinkles-bakery-388f2",
+    "storage_bucket": "sprinkles-bakery-388f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663035479507:android:1b19e7498ddd4c341c1b26",
+        "android_client_info": {
+          "package_name": "com.example.sprinklesbakery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj14tFP_UMuoW_Ps-m3Q30JnmMzgQaH-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
